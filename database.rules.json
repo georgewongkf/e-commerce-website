@@ -1,0 +1,6 @@
+{
+  "rules": {
+    ".read": "true",  // 2023-9-8
+    ".write": "auth.uid !== null",  // 2023-9-8
+  }
+}

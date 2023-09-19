@@ -1,0 +1,14 @@
+:root {
+  --black: #222222;
+  --blue: #068fff;
+  --green: #38e54d;
+  --grey: #d8d9da;
+  --red: #fe0000;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

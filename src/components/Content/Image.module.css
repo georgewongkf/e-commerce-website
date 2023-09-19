@@ -1,0 +1,24 @@
+.imageContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageTitle {
+  margin-top: 0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.imageCaption {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.imageCaption::first-letter {
+  text-transform: capitalize;
+}

@@ -1,0 +1,9 @@
+.textTitle {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.textTitle::first-letter {
+  text-transform: capitalize;
+}

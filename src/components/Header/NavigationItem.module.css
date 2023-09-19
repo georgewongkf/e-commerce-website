@@ -1,0 +1,32 @@
+.item {
+  flex: 1;
+  margin-right: 1rem;
+  display: flex;
+}
+
+.item a {
+  flex: 1;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  color: #eeeded;
+}
+
+.item a:hover {
+  background-color: var(--blue);
+  border-radius: 10px;
+}
+
+.item a.active {
+  color: var(--blue);
+}
+
+.item a.active:hover {
+  color: #f3efe0;
+}
+
+.item a:active {
+  color: var(--blue);
+}

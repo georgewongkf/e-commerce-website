@@ -1,0 +1,16 @@
+.logo {
+  flex: 3.5;
+  display: flex;
+  margin-left: 3rem;
+}
+
+.logoImageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  width: 100%;
+  height: 75%;
+  border-radius: 5px;
+}

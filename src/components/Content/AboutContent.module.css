@@ -1,0 +1,9 @@
+.strongWord {
+  text-transform: uppercase;
+}
+
+.image {
+  height: 27.25rem;
+  border: 3px solid var(--blue);
+  border-radius: 30px;
+}

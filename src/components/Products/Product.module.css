@@ -1,0 +1,132 @@
+.productsContainer {
+  display: flex;
+  flex-direction: column;
+  max-height: 30rem;
+  border-radius: 20px;
+  box-shadow: 5px -25px 20px -25px var(--black),
+    25px 0px 20px -20px var(--black), 0px 25px 20px -20px var(--black),
+    -25px 0px 20px -20px var(--black);
+}
+
+.detailsContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productImage {
+  margin-top: 1.5rem;
+  width: 15rem;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.editImageContainer {
+  border-bottom: 2px dashed var(--blue);
+}
+
+.selectImageButton {
+  flex: 1;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.selectImageButton::file-selector-button {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--black);
+  background-color: var(--grey);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.selectImageButton::file-selector-button:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.confirmImageButton {
+  margin-left: 0.5rem;
+  text-transform: capitalize;
+}
+
+.form {
+  flex: 1;
+}
+
+.inputField {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
+}
+
+.productTitle {
+  flex: 1;
+  margin-top: 1.5rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  color: var(--black);
+}
+
+.productImageTitle {
+  margin-top: 0.25rem;
+}
+
+.productDetails {
+  flex: 1;
+  width: 15rem;
+  margin-top: 0.75rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  color: var(--black);
+  background: none;
+  border: none;
+}
+
+.productDetails:enabled {
+  background-color: var(--grey);
+}
+
+.productDetails:focus {
+  outline: none;
+  background-color: var(--white);
+}
+
+.editContainer {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.editButtonContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.editButton,
+.deleteButton,
+.cancelButton {
+  text-transform: capitalize;
+}
+
+.cancelButton:hover {
+  background-color: var(--red);
+}
+
+.editing {
+  border: 2px solid var(--blue);
+}

@@ -1,0 +1,18 @@
+.navigation {
+  flex: 0 1 47rem;
+  display: flex;
+  margin-right: 3rem;
+  background-color: var(--black);
+  border-radius: 10px;
+  overflow: hidden;
+  height: 2.5rem;
+}
+
+.bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

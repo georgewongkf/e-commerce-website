@@ -1,0 +1,7 @@
+.loginItem {
+  margin-right: 1rem;
+}
+
+.logoutButton:hover {
+  background-color: var(--red);
+}

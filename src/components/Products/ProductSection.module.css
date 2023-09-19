@@ -1,0 +1,10 @@
+.productSection {
+  margin: 1rem 3rem 0 3rem;
+  padding: 0;
+  flex: 5;
+  display: grid;
+  gap: 2rem 5rem;
+  grid-template-columns: repeat(4, minmax(15rem, 1fr));
+  grid-column-start: auto;
+  list-style-type: none;
+}

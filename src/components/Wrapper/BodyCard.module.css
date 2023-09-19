@@ -1,0 +1,5 @@
+.bodyCard {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+}

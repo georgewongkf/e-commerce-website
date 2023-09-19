@@ -1,0 +1,85 @@
+.loginModal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.loginContainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  background-color: var(--white);
+  border-radius: 15px;
+}
+
+.loginForm {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+.formLabel {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: var(--blue);
+}
+
+.formInput {
+  flex: 0 1 2.5rem;
+  margin-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border: 2px solid var(--grey);
+  border-radius: 5px;
+}
+
+.formInput:invalid {
+  background-color: var(--grey);
+}
+
+.checkBox {
+  display: flex;
+  align-items: center;
+}
+
+.checkBoxText {
+  font-size: 1rem;
+  color: var(--black);
+}
+
+.formButton {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.failedMessage {
+  color: var(--red);
+  text-transform: capitalize;
+}
+
+.confirmButton {
+  margin-right: 1rem;
+}
+
+.confirmButton:disabled {
+  background-color: var(--grey);
+  cursor: not-allowed;
+}
+
+.cancelButton {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}

@@ -1,0 +1,42 @@
+.title {
+  flex: 0 1 1rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--black);
+}
+
+.text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  color: #eeeded;
+  margin-left: 3rem;
+}
+
+.updatedMessage {
+  margin-left: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--blue);
+  text-transform: capitalize;
+}
+
+.updatedCounter {
+  margin-right: 0.5rem;
+  color: var(--green);
+}
+
+.messageItem {
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.messageAction {
+  color: var(--green);
+  text-transform: uppercase;
+}
+
+.messageDeleteAction {
+  color: #fe0000;
+  text-transform: uppercase;
+}

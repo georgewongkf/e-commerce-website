@@ -1,0 +1,7 @@
+.contentContainer {
+  width: 100%;
+  margin: 0 3rem;
+  display: flex;
+  background-color: var(--white);
+  border-radius: 10px;
+}
